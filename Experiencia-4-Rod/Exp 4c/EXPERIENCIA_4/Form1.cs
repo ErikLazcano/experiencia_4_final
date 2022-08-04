@@ -149,7 +149,10 @@ namespace EXPERIENCIA_4
  *   en el navegador web. Me parece una experiencia bastante útil para entender algo que se 
  *   usa cotidianamente en el trabajo, estudio, etc.
  *   
- *   Luis Albornoz: 
+ *   Luis Albornoz: Apartir de la experiencia 4 navegador web me permitio aprender 
+ *   que apartir del visual studio se puede diseñar un browser  personalizado, 
+ *   donde se podrian perfectamente aplicar si no tuvieramos una tipica aplicacion 
+ *   como el chrom u otro buscador web.
  * 
  * 
  * 
