@@ -60,10 +60,11 @@ namespace EXPERIENCIA_4
 
         private void chk_visible_CheckedChanged(object sender, EventArgs e)
         {
+ 
             if (!chk_visible.Checked)
             {
                 Navegador.Visible = false; // oculta el navegador
-                txt_pass_TextChanged(sender, e);
+                txt_pass_TextChanged(sender, e); // ejecuta el codigo del txt_pass
             }
             txt_pass.Visible = !chk_visible.Checked;
         }
@@ -127,3 +128,32 @@ namespace EXPERIENCIA_4
         }
     }
 }
+/*
+ *   CONCLUSIONES
+ *   
+ *   Erik Ramirez: aprendía a usar algunas propiedades de los objetos combobox, checkbox e interactuar con el evento keypress que se
+ *   genera cuando se presiona una tecla dentro del cuadro de texto. Esto ultimo me pareció interesante puesto que no
+ *   habia notado que se utiliza por defecto el evento de cambio de texto del text_box y que existen muchos más eventos
+ *   que se pueden utilizar. También me pareció interesante el objeto timer que se puede ejecutar subrutinas por debajo de lo
+ *   que esta ejecutando el usuario. Según lo que investigué, ajustar que todos los componentes de un formulario se ajuste al maximizar
+ *   la ventana no es tan trivial, pero la propiedad Anchor ayuda bastante a ordenar el formulario. 
+ *   
+ *   
+ *   Rodrigo Vasquez: a partir de la experiencia 4 se desarrolla una aplicación de navegador web,
+ *   en donde se hace uso de herramienta/métodos (GoForward(), GoBack(), Stop (), Refresh(), etc) 
+ *   que permiten el control de navegación en internet. En esta experiencia se manejó casi en su totalidad 
+ *   las propiedades de un navegador, se consideraron casi todos los botones necesarios que uno utiliza
+ *   en un navegador Web. Otra parte es el control de navegación que se asemeja mucho al desarrollo de otras 
+ *   aplicaciones como de AD en donde controlan este tipo de navegación, se puede entender 
+ *   cómo se realiza el flujo de programación que se utilizan para bloquear o permitir ciertas urls 
+ *   en el navegador web. Me parece una experiencia bastante útil para entender algo que se 
+ *   usa cotidianamente en el trabajo, estudio, etc.
+ *   
+ *   Luis Albornoz: 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
